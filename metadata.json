@@ -1,0 +1,6 @@
+{
+  "name": "SHABARI Sweets & Bakery - Bhatkal",
+  "description": "Premium Sweets, Cakes, Pastries, Chats, and Bakery specialties in Bhatkal, Karnataka. Explore the menu, customize celebration cakes, and order via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

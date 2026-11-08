@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-kannada: 'Noto Sans Kannada', system-ui, sans-serif;
+
+  --color-cream-50: #FDFAF5;
+  --color-cream-100: #FAF7F2;
+  --color-cream-200: #F3ECE2;
+  --color-cream-300: #E6DBCE;
+
+  --color-choco-950: #1A0D07;
+  --color-choco-900: #2C1810;
+  --color-choco-800: #422518;
+  --color-choco-700: #5C3624;
+  --color-choco-600: #7A4B34;
+
+  --color-gold-400: #DFB75A;
+  --color-gold-500: #C89D3C;
+  --color-gold-600: #A88029;
+  --color-gold-700: #87651C;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+body {
+  background-color: #FAF7F2;
+  color: #2C1810;
+}
+
+/* Custom scrollbar for menu & drawers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F3ECE2;
+}
+::-webkit-scrollbar-thumb {
+  background: #C89D3C;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A88029;
+}
